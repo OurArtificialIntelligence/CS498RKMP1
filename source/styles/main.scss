@@ -1,0 +1,264 @@
+body, html{	
+	background: url("./assets/b1.jpg") no-repeat center center fixed;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+	font-family: Arial;
+	color: white;
+	text-align: center;
+
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+a{
+	color: white;
+    text-decoration: none;
+}
+
+p{
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+	color: black;
+}
+
+div
+{
+	transition: all 0.5s ease-in-out;
+}
+
+header {
+	position: fixed;
+    left: 0px;
+    top: 0px;
+    height: 5%;
+    width: 100%;
+    background: #00ce7b;
+    z-index: 1000;
+    transition: all 0.3s ease-in-out;
+
+    .navbar-1, .navbar-2, .navbar-3, .navbar-4{
+    	position: absolute;
+    	width: 10%;
+    	height: 100%;
+    }
+
+    .navbar-1 {
+    	left: 60%;
+    }
+
+    .navbar-2 {
+    	left: 70%;
+    }
+
+    .navbar-3 {
+    	left: 80%;
+    }
+
+    .navbar-4 {
+    	left: 90%;
+    }
+
+    p {
+    	left: 20%;
+    	position: absolute;
+    	bottom: 31%;
+    }
+}
+
+footer {
+	background-color: #00ce7b;
+	position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 5%;
+    width: 100%;
+    z-index: 1000;
+
+    .footer-text {
+    	position: absolute;
+    	left: 25%;
+    	width: 50%;
+    	margin-top: 10px;
+    }
+}
+
+.section0 {
+	position: relative;
+	height: 30%;
+	background: #00393a;
+	.img-doge {
+		margin-left: 3%;
+		margin-right: 3%;
+		margin-top: 100px;
+	}
+}
+
+.section1 {
+	position: relative;
+	height: 55%;
+}
+
+.section2 {
+	position: relative;
+	height: 50%;
+	background: #00393a;
+	p {
+		position: relative;
+		color: black;
+		top: 30px;
+		font-size: 3em;
+		text-align: center;
+	}
+}
+
+.section3 {
+	position: relative;
+	height: 40%;
+	i {
+		margin-top: 70px;
+		margin-left: 3%;
+		margin-right: 3%;
+		margin-bottom: 10%;
+		font-size: 4em;
+		color: black;
+	}
+	p {
+		text-align: center;
+		color: black;
+		margin-top: 30px;
+		font-size: 2em;
+		text-align: center;
+	}
+}
+
+.section4 {
+	position: relative;
+}
+
+.section1-1, .section1-2, .section1-3{
+	position: absolute;
+	width: 33%;
+	height: 100%;
+	i {
+		margin-top: 30%;
+		margin-bottom: 10%;
+		font-size: 8em;
+		color: black;
+	}
+	p {
+		text-align: center;
+		color: black;
+	}
+}
+
+.section1-1{
+	left: 0;
+}
+
+.section1-2{
+	left: 33%;
+}
+
+.section1-3{
+	right: 0;	
+}
+
+.navbar-scroll {
+	background: white;
+	color: black;
+}
+
+.mySlides {
+	width: 100%;
+	height: 500px;
+}
+
+.slides{
+	margin-top: 2%;
+}
+
+#slides-br, #slides-bl {
+	color: grey;
+	font-size: 5em;
+	position: absolute;
+	top: 30%;
+}
+
+#slides-br {
+	right: 2%;
+}
+
+#slides-bl {
+	left: 2%;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 20%;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: black;
+    margin: auto;
+    padding: 20px;
+    border: none;
+    width: 80%;
+    opacity: 0.7;
+    p {
+    	font-size: 4vw;
+    	color: white;
+    }
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* video */
+video {
+	width:100%;
+	height:100%;
+}
+
+.circle {
+	margin-top: 90px;
+	margin-left: 1%;
+	margin-right: 2%;
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+    border-radius: 50%;
+    background-color: #00ce7b;
+    -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+    transition: width 1s, height 4s;
+}
+
+.circle:hover {
+    width: 160px;
+    height: 160px;
+}

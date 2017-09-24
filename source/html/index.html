@@ -5,12 +5,123 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MP1 Starter</title>
+    <script src="https://use.fontawesome.com/47d3c4129e.js"></script>
 </head>
 
 <body>
+	<header id="header">
+		<div class="navbar-1" id="navbar-1" onclick="initScroll('section1'); return false;">
+			<p onclick="initScroll('section1'); return false;">NAV1</p>
+		</div>
+		<div class="navbar-2" id="navbar-2" onclick="initScroll('section2'); return false;">
+			<p onclick="initScroll('section2'); return false;">NAV2</p>
+		</div>
+		<div class="navbar-3" id="navbar-3" onclick="initScroll('section3'); return false;">
+			<p onclick="initScroll('section3'); return false;">NAV3</p>
+		</div>
+		<div class="navbar-4" id="navbar-4" onclick="initScroll('section4'); return false;">
+			<p onclick="initScroll('section4'); return false;">NAV4</p>
+		</div>
+	</header>
+	<div class="slides">
+		<img class="mySlides" src="./assets/s1.jpg">
+		<img class="mySlides" src="./assets/s2.jpg">
+		<img class="mySlides" src="./assets/s3.jpg">
+		<img class="mySlides" src="./assets/s4.jpg">
+	</div>
 
-    <h2>Welcome to MP1!</h2>
+	<i class="fa fa-arrow-circle-o-left" id="slides-bl" aria-hidden="true" onclick="plusDivs(-1)"></i>
+	<i class="fa fa-arrow-circle-o-right" id="slides-br" aria-hidden="true" onclick="plusDivs(1)"></i>
 
+    <div class="section0">
+    	<img class="img-doge" src="./assets/doge.png">
+    	<img class="img-doge" src="./assets/doge2.png">
+    	<img class="img-doge" src="./assets/doge.png">
+    	<img class="img-doge" src="./assets/doge2.png">
+    	<img class="img-doge" src="./assets/doge.png">
+    	<img class="img-doge" src="./assets/doge2.png">
+    </div>
+    <div class="section1" id="section1">
+    	<div class="section1-1">
+    		<i class="fa fa-film" aria-hidden="true"></i>
+    		<p>This a film icon lol</p>
+    		<p>Random words here</p>
+    	</div>
+    	<div class="section1-2">
+    		<i class="fa fa-picture-o" aria-hidden="true"></i>
+    		<p>This a picture icon lol</p>
+    		<p>Random words here</p>
+    	</div>
+    	<div class="section1-3">
+    		<i class="fa fa-envelope-open-o" aria-hidden="true"></i>
+    		<p>This a message icon lol</p>
+    		<p>Random words here</p>
+    	</div>
+    </div>
+    <div class="section2" id="section2">
+    	<p> HOVER THE CIRCLE!</p>
+    	<div class="circle">
+    	</div>
+    	<div class="circle">
+    	</div>
+    	<div class="circle">
+    	</div>
+    	<div class="circle">
+    	</div>
+    </div>
+    <div class="section3" id="section3">
+    	<p>TRY CLICKING ME!</p>
+    	<i class="fa fa-battery-0" aria-hidden="true" id="myBtn1"></i>
+    	<i class="fa fa-battery-1" aria-hidden="true" id="myBtn2"></i>
+    	<i class="fa fa-battery-2" aria-hidden="true" id="myBtn3"></i>
+    	<i class="fa fa-battery-3" aria-hidden="true" id="myBtn4"></i>
+    	<i class="fa fa-battery-4" aria-hidden="true" id="myBtn5"></i>
+    	<!-- The Modal -->
+		<div id="myModal1" class="modal">
+		  <!-- Modal content -->
+		  <div class="modal-content">
+		    <span class="close">&times;</span>
+		    <p>Batter 0% x0</p>
+		  </div>
+		</div>
+		<div id="myModal2" class="modal">
+		  <div class="modal-content">
+		    <span class="close">&times;</span>
+		    <p>Batter 25% :o</p>
+		  </div>
+		</div>
+		<div id="myModal3" class="modal">
+		  <div class="modal-content">
+		    <span class="close">&times;</span>
+		    <p>Batter 50% :|</p>
+		  </div>
+		</div>
+		<div id="myModal4" class="modal">
+		  <div class="modal-content">
+		    <span class="close">&times;</span>
+		    <p>Batter 75% :(</p>
+		  </div>
+		</div>
+		<div id="myModal5" class="modal">
+		  <div class="modal-content">
+		    <span class="close">&times;</span>
+		    <p>Batter 100% :)</p>
+		  </div>
+		</div>
+    </div>
+    <div class="section4" id="section4">
+    	<video controls autoplay controls>
+		  <source src="./assets/movie.mp4" type="video/mp4">
+		  <source src="./assets/movie.ogg" type="video/ogg">
+		</video>
+    </div>
+    <footer class="footer">
+		<div class="footer-text">
+			<i class="fa fa-facebook-official" aria-hidden="true"></i> Nuochen Lyu
+			<i class="fa fa-weixin" aria-hidden="true"></i>
+			756259647
+		</div>
+    </footer>
     <script src="bundle.js" type="text/javascript"></script>
 </body>
 
