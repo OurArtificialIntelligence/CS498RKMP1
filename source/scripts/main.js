@@ -37,7 +37,7 @@ document.body.onscroll = function(){
 		document.getElementById('navbar-3').classList.remove("navbar-scroll");
 		document.getElementById('navbar-4').classList.remove("navbar-scroll");
 	}	
-	else if(current_p >= 1300 && current_p < 1600){
+	else if(current_p >= 1300 && current_p < 1500){
 		document.getElementById('navbar-3').classList.add("navbar-scroll");
 		document.getElementById('navbar-1').classList.remove("navbar-scroll");
 		document.getElementById('navbar-2').classList.remove("navbar-scroll");
@@ -78,6 +78,38 @@ window.initScroll = function(elementId){
 	window.scroll(0, marginy);
 }
 
+document.getElementById('navbar-1').onclick = function(){
+	initScroll('section1');
+}
+
+document.getElementById('navbar-2').onclick = function(){
+	initScroll('section2');
+}
+
+document.getElementById('navbar-3').onclick = function(){
+	initScroll('section3');
+}
+
+document.getElementById('navbar-4').onclick = function(){
+	initScroll('section4');
+}
+
+document.getElementById('navbar-p1').onclick = function(){
+	initScroll('section1');
+}
+
+document.getElementById('navbar-p2').onclick = function(){
+	initScroll('section2');
+}
+
+document.getElementById('navbar-p3').onclick = function(){
+	initScroll('section3');
+}
+
+document.getElementById('navbar-p4').onclick = function(){
+	initScroll('section4');
+}
+
 //step 6
 var slideIndex = 1;
 
@@ -98,6 +130,14 @@ window.showDivs = function(n) {
 }
 
 showDivs(slideIndex);
+
+document.getElementById('slides-bl').onclick = function(){
+	plusDivs(-1);
+}
+
+document.getElementById('slides-br').onclick = function(){
+	plusDivs(1);
+}
 
 //step 11
 var modal = document.getElementsByClassName("modal");
