@@ -31,13 +31,13 @@ document.body.onscroll = function(){
 		document.getElementById('navbar-3').classList.remove("navbar-scroll");
 		document.getElementById('navbar-4').classList.remove("navbar-scroll");
 	}
-	else if(current_p >= 950 && current_p < 1300) {
+	else if(current_p >= 950 && current_p < 1500) {
 		document.getElementById('navbar-2').classList.add("navbar-scroll");
 		document.getElementById('navbar-1').classList.remove("navbar-scroll");
 		document.getElementById('navbar-3').classList.remove("navbar-scroll");
 		document.getElementById('navbar-4').classList.remove("navbar-scroll");
 	}	
-	else if(current_p >= 1300 && current_p < 1500){
+	else if(current_p >= 1500 && current_p < 1850){
 		document.getElementById('navbar-3').classList.add("navbar-scroll");
 		document.getElementById('navbar-1').classList.remove("navbar-scroll");
 		document.getElementById('navbar-2').classList.remove("navbar-scroll");
