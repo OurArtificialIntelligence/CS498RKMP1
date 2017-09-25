@@ -51,7 +51,7 @@ document.body.onscroll = function(){
 	}
 }
 
-//step 4
+// step 4
 // The below scroll function is from https://www.youtube.com/watch?v=1GbuBXDmtLo
 var marginy = 0;
 var destination = 0;
@@ -111,6 +111,7 @@ document.getElementById('navbar-p4').onclick = function(){
 }
 
 //step 6
+//https://www.w3schools.com/w3css/w3css_slideshow.asp
 var slideIndex = 1;
 
 window.plusDivs = function(n) {

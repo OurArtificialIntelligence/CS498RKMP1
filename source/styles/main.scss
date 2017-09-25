@@ -90,28 +90,28 @@ footer {
 
 .section0 {
 	position: relative;
-	height: 30%;
+	height: 300px;
 	background: #00393a;
 	.img-doge {
 		margin-left: 3%;
 		margin-right: 3%;
-		margin-top: 100px;
+		margin-top: 125px;
 	}
 }
 
 .section1 {
 	position: relative;
-	height: 55%;
+	height: 550px;
 }
 
 .section2 {
 	position: relative;
-	height: 50%;
+	height: 500px;
 	background: #00393a;
 	p {
 		position: relative;
 		color: black;
-		top: 30px;
+		top: 50px;
 		font-size: 3em;
 		text-align: center;
 	}
@@ -119,13 +119,12 @@ footer {
 
 .section3 {
 	position: relative;
-	height: 40%;
+	height: 400px;
 	i {
-		margin-top: 70px;
+		margin-top: 125px;
 		margin-left: 3%;
 		margin-right: 3%;
-		margin-bottom: 10%;
-		font-size: 4em;
+		font-size: 50px;
 		color: black;
 	}
 	p {
@@ -146,14 +145,18 @@ footer {
 	width: 33%;
 	height: 100%;
 	i {
-		margin-top: 30%;
-		margin-bottom: 10%;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+
 		font-size: 8em;
 		color: black;
 		-webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
     	transition: width 1s, height 4s;
 	}
 	p {
+		margin-top: 400px;
 		text-align: center;
 		color: black;
 	}
